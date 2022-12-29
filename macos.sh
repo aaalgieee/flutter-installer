@@ -74,9 +74,9 @@ fi
 
 # Android Studio
 if [ -d "/Applications/Android Studio.app" ]; then
-  echo "Android Studio is installed"
+  echo "Android Studio is installed" ; sleep 3
 else
-  echo "Android Studio is not installed" ;sleep 3
+  echo "Android Studio is not installed" ; sleep 3
   clear
 echo "Installing Dependencies:" 
 echo "----------------------- \n" ;
