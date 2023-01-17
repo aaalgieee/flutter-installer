@@ -68,7 +68,7 @@ else
     echo "Installing Dependencies:" 
     echo "----------------------- \n" ;
   echo "Installing Flutter..."
-  brew install --cask flutter
+  brew install --cask flutter -q
   clear
 fi
 
@@ -81,7 +81,7 @@ else
 echo "Installing Dependencies:" 
 echo "----------------------- \n" ;
   echo "Installing Android Studio..."
-  brew install --cask android-studio
+  brew install --cask android-studio -q
   clear
 fi
 
